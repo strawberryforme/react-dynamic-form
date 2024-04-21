@@ -1,0 +1,40 @@
+.login-pages {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  h1 {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    transform: skewX(-2deg);
+    // 旋转，阴影。
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  .ant-card {
+    width: 20rem;
+    height: 20rem;
+    background: rgba(22, 27, 34);
+
+    .ant-form {
+      label {
+        color: #fff;
+      }
+      .ant-form-item-control-input-content {
+        .ant-input-outlined {
+          background: rgba(13, 17, 23);
+          border: 1px  solid rgba(33, 38, 45);
+        }
+      }
+    }
+  }
+  .ant-card-bordered {
+    border: 1px  solid rgba(33, 38, 45);
+  }
+  .login-button {
+    width: 100%;
+  }
+}
